@@ -1,14 +1,14 @@
 import './App.css';
-
+import React from 'react';
+import Header from './Header';
 function App() {
   return (
     //BEM class naming convention
     <div className="App">
-      <h1>MERN Tinder project</h1>
-      {/* {Header} */}
-      {/* {TinderCards} */}
-      {/* {SwipeButtons} */}
       
+      {<Header />}
+      {/* TinderCards */}
+      {/* SwipeButtons */}
     </div>
   );
 }
